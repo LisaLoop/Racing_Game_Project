@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 // OOP Racing Game example boilerplate code
 
 function Game() {
@@ -15,16 +14,16 @@ function Game() {
   this.track2 = new Track();
 }
 
-// // `Game.prototype.init` kicks off a new game with a board and two players
-// Game.prototype.init = function() {
-//   //
-// };
+// `Game.prototype.init` kicks off a new game with a board and two players
+Game.prototype.init = function() {
+  //
+};
 
 // A starter Player constructor.
 function Player(team) { //player class which defines the properties of a player.
   this.name = team; 
   this.position = 0; //starting position
-  this.available_colors = ["red","green","orange"]
+  this.available_colors = ["#ef01ff","#01FF70","#01ffef"]
 };
 
 // Remember: prototypes are shared functions between all game instances
@@ -33,7 +32,7 @@ Player.prototype.move = function() {
   return this.position; //returns the player's position
 };
 
-Player.prototype.changeColor = function() {
+Player.prototype.changeColor = function() { //function changes color by randomly picking one of 3 available_colors 
   console.log(Math.floor(Math.random() * 3))
   $('#track' +this.name+' .active').css('background-color', this.available_colors[Math.floor(Math.random() * 3)]);
 };

@@ -1,11 +1,21 @@
 /* Style Sheet */
+body {
+  background-image: url("rainbow.jpg");
+  background-size: 100%;
+  font-family: 'Orbitron', sans-serif;
+  color: #b39700;
+}
 
 h1 {
   text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 50px;
 }
 
 .board {
-  margin-left: 10%
+  margin-left: 10%;
+  margin-top: 10%;
+
 }
 .position {
   height: 80px;
@@ -13,8 +23,23 @@ h1 {
   border: 2px solid black;
 }
 
+td.position {
+  text-shadow: 2px 2px 2px #000;
+  font-size: 30px;
+  border-radius: 20px;
+  -moz-box-shadow:    0px 1px 4px 4px #343434;
+  -webkit-box-shadow: 0px 1px 4px 4px #343434;
+  -webkit-box-shadow: 0px 1px 4px 4px #343434;
+  box-shadow:         0px 1px 4px 4px #343434;
+}
+
 .lower {
   margin-top: 100px;
+}
+
+.buttonsDiv {
+  margin-left: 30%;
+  margin-top: 8%;
 }
 
 .button {
@@ -22,6 +47,78 @@ h1 {
   margin-left: 50%;
 }
 
+  .player1Color {
+  -moz-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  box-shadow: 0px 4px 16px 0px #f0f7fa;
+  background-color:transparent;
+  -moz-border-radius:24px;
+  -webkit-border-radius:24px;
+  border-radius:24px;
+  border:6px solid #343434;
+  display:inline-block;
+  cursor:pointer;
+  color:#b39700;
+  font-family: 'Orbitron', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  padding:14px 33px;
+  text-decoration:none;
+  text-shadow:0px -2px 0px #343434;
+}
+.player1Color:hover {
+  background-color:#01FF70;
+}
+
+
+ .player2Color {
+  -moz-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  box-shadow: 0px 4px 16px 0px #f0f7fa;
+  background-color:transparent;
+  -moz-border-radius:24px;
+  -webkit-border-radius:24px;
+  border-radius:24px;
+  border:6px solid #343434;
+  display:inline-block;
+  cursor:pointer;
+  color:#b39700;
+  font-family: 'Orbitron', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  padding:14px 33px;
+  text-decoration:none;
+  text-shadow:0px -2px 0px #5b6178;
+}
+.player2Color:hover {
+  background-color:#01FF70;
+}
+
+
+.reset  {
+  -moz-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 4px 16px 0px #f0f7fa;
+  box-shadow: 0px 4px 16px 0px #f0f7fa;
+  background-color:transparent;
+  -moz-border-radius:24px;
+  -webkit-border-radius:24px;
+  border-radius:24px;
+  border:6px solid #343434;
+  display:inline-block;
+  cursor:pointer;
+  color:#b39700;
+  font-family: 'Orbitron', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  padding:14px 33px;
+  text-decoration:none;
+  text-shadow:0px -2px 0px #5b6178;
+}
+.reset:hover {
+  background-color:#01FF70;
+}
+
+
 .active {
-  background-color: red;
+  background-color: #AF18D8;
 }
