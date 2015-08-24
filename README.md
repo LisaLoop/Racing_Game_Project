@@ -16,10 +16,13 @@ This file is where you will document your project.
 
 
 ### Technologies Used
-*What technologies did you use while developing this project?*
+*What technologies did you use while developing this project?* Javascript, Jquery, HTML, CSS
 
 ###Existing features
-*What features does your new racing app have?*
+*What features does your new racing app have?* Two new buttons that change the player color. New game is object oriented. 
 
 ###Planned features
-*What changes would you make to your project if you continued with it in the future?*
+*What changes would you make to your project if you continued with it in the future?* Fix the bugs that make the "reset button" only reset certain game cells. Also when a player changes his or her color and then continues to move forward the next cells change to the  start color, not the selected color. 
+
+Instructions: 
+Use the ";" and "a" key to move players forward. The change color buttons changes the players' color. The reset button resets the board. 
