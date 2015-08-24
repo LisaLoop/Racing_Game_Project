@@ -8,7 +8,7 @@ function Game() {
   this.player1 = new Player("1"); //instantiates player
   //works w/property created in the Player function. 
   //Do the same for a player 2
-  this.player2 = new Player("2"); //instantiates player 
+  this.player2 = new Player("2"); //instances player 
 
   //Create the track
   this.track1 = new Track(); //creates 2 new instantses of Track()
