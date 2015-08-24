@@ -15,10 +15,10 @@ function Game() {
   this.track2 = new Track();
 }
 
-// `Game.prototype.init` kicks off a new game with a board and two players
-Game.prototype.init = function() {
-  //
-};
+// // `Game.prototype.init` kicks off a new game with a board and two players
+// Game.prototype.init = function() {
+//   //
+// };
 
 // A starter Player constructor.
 function Player(team) { //player class which defines the properties of a player.
